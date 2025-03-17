@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.item:nth-child(1){
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+.item:nth-child(2){
+    background-color: blue;
+    z-index: 2;
+    top: 30%;
+    left: 30%;
+}
+.item:nth-child(3){
+    background-color: green;
+    top: 70%;
+    left: 70%;
+}
